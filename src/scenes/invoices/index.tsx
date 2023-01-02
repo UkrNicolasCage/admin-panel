@@ -56,7 +56,7 @@ export const Invoices = () => {
         height="75vh"
         sx={{
           '& .MuiDataGrid-root': {
-            border: `none !important`,
+            border: 'none !important',
           },
           '& .MuiDataGrid-cell': {
             borderBottom: 'none !important',
