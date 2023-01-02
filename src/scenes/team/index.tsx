@@ -88,10 +88,10 @@ export const Team = () => {
         height="75vh"
         sx={{
           '& .MuiDataGrid-root': {
-            border: 'none',
+            border: 'none !important',
           },
           '& .MuiDataGrid-cell': {
-            borderBottom: 'none',
+            borderBottom: 'none !important',
           },
           '& .name-column--cell': {
             color: colors.greenAccent[300],

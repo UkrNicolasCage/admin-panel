@@ -59,7 +59,7 @@ export const Invoices = () => {
             border: `none !important`,
           },
           '& .MuiDataGrid-cell': {
-            borderBottom: 'none',
+            borderBottom: 'none !important',
           },
           '& .name-column--cell': {
             color: colors.greenAccent[300],
